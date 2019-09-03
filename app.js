@@ -33,5 +33,5 @@ app.get('/about',(req,res)=>
 
 app.listen(port,()=>
 {
-    console.log(`SERVIDOR OK PUERTO ${{port}}`);
+    console.log(`SERVIDOR OK PUERTO ${port}`);
 })
